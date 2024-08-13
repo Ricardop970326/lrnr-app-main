@@ -1,0 +1,95 @@
+.quiz-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    margin-bottom: -222px;
+    margin-right: auto;
+}
+
+.quiz-page h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); */
+    margin: 10px;
+    text-align: left;
+    width: 90%;
+}
+
+.quiz-page p {
+    font-size: 1rem;
+    text-align: left;
+    width: 90%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 90%;
+    height: auto;
+    margin-top: 50px;
+}
+
+/* form select option{
+    width: -68%;
+} */
+
+
+form select {
+    padding: 2px 50%;
+    font-size: 1.3rem;
+    width: 90%;
+    padding-left: 0;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden;
+    margin: 20px 5px;
+}
+form select:active{
+border-bottom-color: #059576;
+}
+
+
+
+form button {
+    margin-top: 10px;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    border: none;
+    background: #059576;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #00b359;
+}
+
+form label {
+    color: #717070;
+    padding-right: 50%;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 1115px) {
+    form {
+        width: 90%;
+    }
+
+  
+
+    form label {
+        font-size: 1rem;
+    }
+}
